@@ -291,6 +291,23 @@
 
     </dependencies>
 
+
+         <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>maven-release</name>
+	      <url>http://18.118.207.128:8081/repository/Maven-Release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>maven-snapshot</name>
+	      <url>http://18.118.207.128:8081/repository/Maven-Sanpshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
         <defaultGoal>install</defaultGoal>
