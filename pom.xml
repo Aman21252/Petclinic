@@ -297,13 +297,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>maven-release</name>
-	      <url>http://3.142.124.9:8081/repository/Maven-Release/</url>
+	      <url>http://18.191.176.99:8081/repository/Maven-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>maven-snapshot</name>
-	      <url>http://3.142.124.9:8081/repository/Maven-Sanpshot/</url>
+	      <url>http://18.191.176.99:8081/repository/Maven-Sanpshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
